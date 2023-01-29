@@ -1,6 +1,7 @@
 {
     "okButton": "OK",
     "cancelButton": "Avbryt",
+    "updateButton": "Uppdatera",
     "enabledLabel": "Aktiverad",
     "disabledLabel": "Inaktiverad",
     "yesButton": "Ja",
@@ -21,7 +22,7 @@
         "noInstallations": "Inga patchade applikationer installerade",
         "installed": "Installerat",
         "updateDialogTitle": "Uppdatera Manager",
-        "updateDialogText": "Är du säker på att du vill ladda ner och uppdatera ReVanced Manager?",
+        "updateChangelogTitle": "Ändringslogg",
         "notificationTitle": "Uppdatering nedladdad",
         "notificationText": "Tryck för att installera uppdateringen",
         "downloadingMessage": "Laddar ner uppdatering...",
@@ -76,18 +77,18 @@
     "patchesSelectorView": {
         "viewTitle": "Välj patchar",
         "searchBarHint": "Sök efter patchar",
-        "doneButton": "Klart",
+        "doneButton": "Färdig",
         "recommended": "Rekommenderad",
         "all": "Alla",
         "none": "Ingen",
         "loadPatchesSelection": "Ladda patchurval",
-        "noSavedPatches": "Inga sparade patchar för den valda appen\nTryck på Klar för att spara aktuellt val",
+        "noSavedPatches": "Inga sparade patchar för den valda appen.\nTryck på Klar för att spara aktuellt val.",
         "noPatchesFound": "Inga patchar hittades för appen",
         "selectAllPatchesWarningContent": "Du är på väg att välja alla patchar, bland dessa finns patchar som inte rekommenderas då de kan orsaka oönskat beteende."
     },
     "patchItem": {
         "unsupportedDialogText": "Patchen kan orsaka patchningsfel.\n\nApp version: {packageVersion}\nKompatibla versioner:\n{supportedVersions}",
-        "unsupportedPatchVersion": "Patch stöds inte för denna appversionen. Aktivera experimentella patchar i inställningarna för att fortsätta."
+        "unsupportedPatchVersion": "Patch stöds inte för den här appversionen. Aktivera den experimentella växeln i Inställningar för att fortsätta."
     },
     "installerView": {
         "widgetTitle": "Installerare",
@@ -121,6 +122,7 @@
         "englishOption": "Engelska",
         "sourcesLabel": "Källor",
         "sourcesLabelHint": "Konfigurera egna källor",
+        "hostRepositoryLabel": "API för Arkiv",
         "orgPatchesLabel": "Organisation för patchar",
         "sourcesPatchesLabel": "Källa för patchar",
         "orgIntegrationsLabel": "Organisation för integrationer",
@@ -135,6 +137,8 @@
         "apiURLLabel": "API URL",
         "apiURLHint": "Konfigurera egen API URL",
         "selectApiURL": "API URL",
+        "experimentalUniversalPatchesLabel": "Experimentella universella fläckar stöd",
+        "experimentalUniversalPatchesHint": "Visa alla program som ska användas med universella patchar, det kan vara långsammare att ladda listan över appar",
         "experimentalPatchesLabel": "Stöd för experimentella patchar",
         "experimentalPatchesHint": "Aktivera användning av patchar som inte stöds i någon appversion",
         "enabledExperimentalPatches": "Stöd för experimentella patchar aktiverat",
@@ -148,7 +152,7 @@
         "deleteKeystoreHint": "Radera keystore filen som används för att signera appen",
         "deletedKeystore": "Raderade keystore",
         "deleteTempDirLabel": "Ta bort temporära filer",
-        "deleteTempDirHint": "Radera oanvända temporära filer",
+        "deleteTempDirHint": "Ta bort oanvända temporära filer",
         "deletedTempDir": "Raderade temporära filer",
         "exportPatchesLabel": "Exportera patchurval",
         "exportPatchesHint": "Exportera patchurval till en JSON-fil",

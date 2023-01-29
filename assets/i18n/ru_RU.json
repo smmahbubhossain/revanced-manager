@@ -93,7 +93,7 @@
     "installerView": {
         "widgetTitle": "Установщик",
         "installButton": "Установить",
-        "installRootButton": "Установить как Root",
+        "installRootButton": "Установить от Root",
         "openButton": "Открыть",
         "shareButton": "Поделиться файлом",
         "notificationTitle": "ReVanced Manager патчит",

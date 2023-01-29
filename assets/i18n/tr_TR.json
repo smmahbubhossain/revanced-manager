@@ -103,7 +103,7 @@
         "shareLogMenuOption": "Günlüğü paylaş",
         "installErrorDialogTitle": "Hata",
         "installErrorDialogText1": "Kök yüklemesi şuanki yama seçimiyle mümkün değil.\nUygulamanızı tekrar yamalayın veya köksüz yüklemeyi seçin.",
-        "installErrorDialogText2": "Rootsuz yükleme şuanki yama seçimiyle mümkün değil.\nUygulamanızı tekrar yamalayın veya cihazınız root izni varsa root ile yükleme yolunu seçin.",
+        "installErrorDialogText2": "Rootsuz yükleme şu anki yama seçimiyle mümkün değil.\nUygulamanızı tekrar yamalayın veya cihazınızın root izni varsa root ile yükleme yolunu seçin.",
         "installErrorDialogText3": "Orijinal APK depolamadan seçildiği için kök izni ile yükleme mümkün değil.\nYüklü olan bir uygulama seçin veya köksüz yüklemeyi seçin.",
         "noExit": "Yükleyici hâlâ çalışıyor, çıkış yapılamaz..."
     },
@@ -182,7 +182,7 @@
         "originalPackageNameLabel": "Orijinal paket adı",
         "installTypeLabel": "Kurulum tipi",
         "rootTypeLabel": "Kök",
-        "nonRootTypeLabel": "Köksüz",
+        "nonRootTypeLabel": "Rootsuz",
         "patchedDateLabel": "Yamalandığı tarih",
         "patchedDateHint": "{date} tarihinde {time} saatinde",
         "appliedPatchesLabel": "Uygulanan yamalar",

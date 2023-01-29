@@ -1,6 +1,7 @@
 {
-    "okButton": "Rendben",
+    "okButton": "OK",
     "cancelButton": "Mégse",
+    "updateButton": "Frissítés",
     "enabledLabel": "Engedélyezve",
     "disabledLabel": "Letiltva",
     "yesButton": "Igen",
@@ -21,7 +22,7 @@
         "noInstallations": "Nincs telepítve patchelt alkalmazás",
         "installed": "Telepítve",
         "updateDialogTitle": "Frissítéskezelő",
-        "updateDialogText": "Biztosan le akarod tölteni és frissíteni a ReVanced Manager-t?",
+        "updateChangelogTitle": "Újdonságok",
         "notificationTitle": "Frissítés letöltve",
         "notificationText": "Érintse meg a frissítés telepítéséhez",
         "downloadingMessage": "Frissítés letöltése...",
@@ -41,7 +42,7 @@
         "timeagoLabel": "{time} ideje",
         "patcherLabel": "Patchelő: ",
         "managerLabel": "Manager: ",
-        "updateButton": "Manager frissitése"
+        "updateButton": "Manager frissítése"
     },
     "patcherView": {
         "widgetTitle": "Patchelő",
@@ -81,13 +82,13 @@
         "all": "Összes",
         "none": "Semmi",
         "loadPatchesSelection": "Korábbi kiválasztás betöltése",
-        "noSavedPatches": "Ehhez az alkalmazáshoz nem tartozik egy mentett kiválasztás sem\nNyomd meg a Kész gombot hogy elmentsd a jelenlegi listát",
+        "noSavedPatches": "A kiválasztott alkalmazáshoz nincsenek mentett patchek.\nNyomd meg a 'Kész' gombot a jelenlegiek elmentéséhez.",
         "noPatchesFound": "A kiválasztott alkalmazáshoz nem találhatóak patchek",
         "selectAllPatchesWarningContent": "Az összes patchet készülsz kiválasztani, ami nem ajánlott patcheket is tartalmaz, melyek váratlan hibákhoz vezethetnek."
     },
     "patchItem": {
         "unsupportedDialogText": "Ezt a patchet nem biztos hogy sikerül alkalmazni, mert más verzióhoz készült.\n\nAlkalmazás verzió: {packageVersion}\nJelenleg támogatott verziók:\n{supportedVersions}",
-        "unsupportedPatchVersion": "Nem támogatott verzió. Engedélyezd a kísérleti jellegű patchelést a beállításokban ha mégis alkalmaznád."
+        "unsupportedPatchVersion": "A patch nem támogatott ehhez az alkalmazás verzióhoz. Engedélyezd a kísérleti kapcsolót a beállításokban a folytatáshoz."
     },
     "installerView": {
         "widgetTitle": "Telepítő",
@@ -121,6 +122,7 @@
         "englishOption": "Angol (English)",
         "sourcesLabel": "Források",
         "sourcesLabelHint": "Állítsd be egyedi forrásaid",
+        "hostRepositoryLabel": "Adattároló API",
         "orgPatchesLabel": "Patchek - szervezet",
         "sourcesPatchesLabel": "Patchek - forrás",
         "orgIntegrationsLabel": "Integrációk - szervezet",
@@ -135,6 +137,8 @@
         "apiURLLabel": "API URL",
         "apiURLHint": "Itt állíthatod be az API címét",
         "selectApiURL": "API címe",
+        "experimentalUniversalPatchesLabel": "Kísérleti univerzális patchelés",
+        "experimentalUniversalPatchesHint": "Az összes univerzális patchekkel használható alkalmazás megjelenítése, az alkalmazások listájának betöltése lassabb lehet",
         "experimentalPatchesLabel": "Kísérleti patchelés",
         "experimentalPatchesHint": "A patcheket nem támogatott verziókra is lehessen alkalmazni",
         "enabledExperimentalPatches": "Kísérleti patchelés engedélyezve",
@@ -148,7 +152,7 @@
         "deleteKeystoreHint": "Törli az alkalmazás aláírásához használt kulcstartót",
         "deletedKeystore": "Kulcstartó törölve",
         "deleteTempDirLabel": "Ideiglenes fájlok törlése",
-        "deleteTempDirHint": "Felesleges átmeneti fájlok törlése",
+        "deleteTempDirHint": "Nem használt ideiglenes fájlok törlése",
         "deletedTempDir": "Ideiglenes fájlok törölve",
         "exportPatchesLabel": "Kiválasztások exportálása",
         "exportPatchesHint": "Az összes korábbi kiválasztás mentáse JSON fájlba",

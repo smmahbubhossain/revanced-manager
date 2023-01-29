@@ -23,13 +23,13 @@
         "installed": "Installeret",
         "updateDialogTitle": "Opdater Manager",
         "updateChangelogTitle": "Ændringslog",
-        "notificationTitle": "Opdatering downloadet",
-        "notificationText": "Tryk for at installere opdateringen",
-        "downloadingMessage": "Downloader opdatering...",
+        "notificationTitle": "Opdatering hentet",
+        "notificationText": "Tryk her for at installere opdateringen",
+        "downloadingMessage": "Henter opdatering...",
         "installingMessage": "Installerer opdatering...",
-        "errorDownloadMessage": "Kunne ikke downloade opdateringen",
-        "errorInstallMessage": "Kunne ikke installere opdateringen",
-        "noConnection": "Ingen Internetforbindelse",
+        "errorDownloadMessage": "Opdatering kan ikke hentes",
+        "errorInstallMessage": "Opdatering kunne ikke installeres",
+        "noConnection": "Ingen internetforbindelse",
         "updatesDisabled": "Opdatering af en patchet app er i øjeblikket deaktiveret. Repatch appen igen."
     },
     "applicationItem": {
@@ -42,7 +42,7 @@
         "timeagoLabel": "{time} siden",
         "patcherLabel": "Patcher: ",
         "managerLabel": "Manager: ",
-        "updateButton": "Opdater Manager"
+        "updateButton": "Opdatér Manager"
     },
     "patcherView": {
         "widgetTitle": "Patcher",

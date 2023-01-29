@@ -93,7 +93,7 @@
     "installerView": {
         "widgetTitle": "安裝程式",
         "installButton": "安裝",
-        "installRootButton": "以 Root 身分安裝",
+        "installRootButton": "以 Root 模式安裝",
         "openButton": "開啟",
         "shareButton": "分享檔案",
         "notificationTitle": "ReVanced Manager 正在修補",
